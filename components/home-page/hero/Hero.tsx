@@ -15,9 +15,7 @@ const Hero = () => {
           )}
         >
           {/* Text content */}
-          <p className="text-[13px] font-medium sm:text-[14px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px]">
-            I&apos;m Dominic Brian
-          </p>
+          <p className="text-[13px] font-medium sm:text-[14px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px]"></p>
           <h1 className="max-w-[9ch] text-[40px] font-bold tracking-tighter min-[420px]:max-w-[13ch] sm:text-[47px] md:text-[54px] lg:text-[61px] xl:text-[68px] 2xl:text-[75px]">
             Aspiring Full-Stack Developer
           </h1>
@@ -47,6 +45,8 @@ const Hero = () => {
               loop
               muted
               playsInline
+              src="home-page/hero/hero.webm"
+              poster="home-page/hero/hero-thumbnail.jpg"
             >
               <source src="home-page/hero/hero.mp4" type="video/mp4" />
               Your browser does not support videos
