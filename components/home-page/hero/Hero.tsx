@@ -1,9 +1,7 @@
 import React from "react";
-import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 import classes from "@/styles/home-page/hero.module.css";
-import hero from "@/public/home-page/hero/hero.png";
 
 const Hero = () => {
   return (
@@ -41,8 +39,18 @@ const Hero = () => {
           </div>
 
           {/* Video area */}
-          <div className="bg-background mt-[2em] aspect-video w-4/5 overflow-hidden rounded-t-2xl sm:w-[450px] md:w-[550px] lg:w-3/5">
-            <Image src={hero} alt="Code" />
+          <div className="bg-background mt-[2em] aspect-video w-4/5 max-w-[800px] overflow-hidden rounded-t-2xl sm:w-[450px] md:w-[550px] lg:w-3/5">
+            <video
+              autoPlay
+              className="size-full object-cover object-top"
+              disablePictureInPicture
+              loop
+              muted
+              playsInline
+            >
+              <source src="home-page/hero/hero.mp4" type="video/mp4" />
+              Your browser does not support videos
+            </video>
           </div>
         </div>
       </div>
