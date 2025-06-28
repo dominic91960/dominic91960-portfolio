@@ -7,40 +7,35 @@ import hero from "@/public/home-page/hero/hero.png";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="mx-auto flex h-screen w-full items-center justify-center p-[50px]">
+    <section className="p-hero h-[600px] sm:h-auto lg:h-screen">
+      <div className={cn("h-full overflow-hidden rounded", classes["hero-bg"])}>
         <div
           className={cn(
-            "text-background flex size-full flex-col items-center justify-center rounded-2xl text-center",
-            classes["hero-bg"],
+            "text-background container mx-auto flex h-full flex-col items-center justify-end pt-[4em] text-center",
           )}
         >
-          <div className="flex grow flex-col items-center justify-center">
-            <p className="font-medium 2xl:text-[30px]">
-              I&apos;m Dominic Brian
-            </p>
-            <p className="text-[100px] font-bold tracking-tighter">
-              Aspiring Full-Stack <br />
-              Developer
-            </p>
-            <p className="mt-[0.5em] mb-[1em] 2xl:text-[24px]">
-              I&apos;m learning frontend and backend technologies to become a
-              full-stack developer. I love turning ideas into <br /> reality
-              through code and am excited to grow my skills while building
-              meaningful projects.
-            </p>
+          <p className="text-[13px] font-medium sm:text-[14px] md:text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[17px]">
+            I&apos;m Dominic Brian
+          </p>
+          <p className="max-w-[9ch] text-[40px] font-bold tracking-tighter min-[420px]:max-w-[13ch] sm:text-[47px] md:text-[54px] lg:text-[61px] xl:text-[68px] 2xl:text-[75px]">
+            Aspiring Full-Stack Developer
+          </p>
+          <p className="mt-[0.5em] mb-[1.2em] max-w-[31ch] text-[14px] min-[400px]:max-w-[35ch] sm:max-w-[42ch] sm:text-[15px] md:text-[16px] lg:max-w-[70ch] lg:text-[17px] xl:text-[18px] 2xl:text-[19px]">
+            I&apos;m learning frontend and backend technologies to become a
+            full-stack developer. I love turning ideas into reality through code
+            and am excited to grow my skills while building meaningful projects.
+          </p>
+          <div className="flex gap-[1em]">
+            <button className="bg-background/40 hover:bg-background/60 focus:bg-background/60 text-foreground w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
+              My Projects
+            </button>
 
-            <div className="flex items-center gap-[1em]">
-              <button className="bg-background/50 text-foreground rounded-[0.5em] px-[2.5em] py-[1em] font-medium backdrop-blur-sm">
-                My Projects
-              </button>
-              <button className="bg-foreground/50 text-background rounded-[0.5em] px-[2.5em] py-[1em] font-medium backdrop-blur-sm">
-                Get In Touch
-              </button>
-            </div>
+            <button className="bg-foreground/40 hover:bg-foreground/60 focus:bg-foreground/60 text-background w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
+              Get In Touch
+            </button>
           </div>
 
-          <div className="bg-background h-45/100 w-3/5 overflow-hidden rounded-t-2xl">
+          <div className="bg-background mt-[2em] aspect-video w-4/5 overflow-hidden rounded-t-2xl sm:w-[450px] md:w-[550px] lg:w-3/5">
             <Image src={hero} alt="Code" />
           </div>
         </div>

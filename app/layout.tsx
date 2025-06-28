@@ -23,7 +23,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "font-primary bg-background leading-[1.1] antialiased",
+          "font-primary bg-background text-[12px] leading-[1.1] antialiased sm:text-[13px] md:text-[14px] lg:text-[15px] xl:text-[15px] 2xl:text-[16px]",
           geistSans.variable,
         )}
       >

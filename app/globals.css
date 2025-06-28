@@ -3,14 +3,21 @@
 :root {
   --foreground: #111418;
   --background: #f8f9fa;
+  --hero-padding: 20px;
+  --radius: 25px;
 }
 
 @theme inline {
+  --color-foreground: var(--foreground);
+  --color-background: var(--background);
+
   --font-primary:
     var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --color-foreground: var(--foreground);
-  --color-background: var(--background);
+
+  --radius: var(--radius);
+
+  --spacing-hero: var(--hero-padding);
 }
 
 @layer base {
@@ -32,5 +39,40 @@
   :root {
     --foreground: #f8f9fa;
     --background: #111418;
+  }
+}
+
+@media (width >= 640px) {
+  :root {
+    --hero-padding: 27px;
+    --radius: 31px;
+  }
+}
+
+@media (width >= 768px) {
+  :root {
+    --hero-padding: 35px;
+    --radius: 37px;
+  }
+}
+
+@media (width >= 1024px) {
+  :root {
+    --hero-padding: 42px;
+    --radius: 44px;
+  }
+}
+
+@media (width >= 1280px) {
+  :root {
+    --hero-padding: 46px;
+    --radius: 47px;
+  }
+}
+
+@media (width >= 1536px) {
+  :root {
+    --hero-padding: 50px;
+    --radius: 50px;
   }
 }

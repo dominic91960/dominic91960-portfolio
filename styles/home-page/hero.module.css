@@ -1,5 +1,13 @@
 .hero-bg {
   background-image:
-    radial-gradient(74% 86% at 67% 38%, #03a884 24%, transparent 100%),
-    linear-gradient(125deg, #c7910c 1%, #00875e 100%);
+    radial-gradient(70.71% 99% at 100% 39.75%, #00875e 0%, #000000 100%),
+    radial-gradient(70.41% 100% at 50% 0%, #c7910c 0%, #c62a34 100%);
+  background-blend-mode: difference;
+
+  /* background-image:
+    linear-gradient(180deg, #ffffff 0%, #000000 100%),
+    linear-gradient(229.79deg, #7534ff 0%, #000000 94.19%),
+    radial-gradient(56.26% 101.79% at 50% 0%, #8f00ff 0%, #493500 100%),
+    linear-gradient(96.19deg, #d5b300 3.37%, #500052 96.63%);
+  background-blend-mode: difference, difference, difference, normal; */
 }
