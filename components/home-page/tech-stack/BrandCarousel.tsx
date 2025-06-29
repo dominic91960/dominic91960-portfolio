@@ -48,12 +48,9 @@ const BrandCarousel: React.FC<{ className?: string }> = ({
               <div
                 key={id}
                 tabIndex={-1}
-                className="relative opacity-100 transition-opacity duration-300 hover:opacity-100 focus:opacity-100"
+                className="relative flex items-center justify-center opacity-100 transition-opacity duration-300 hover:opacity-100 focus:opacity-100"
               >
-                <Icon className="mx-auto h-fit w-3/5 opacity-10" />
-                <p className="text-foreground absolute inset-0 m-auto size-fit">
-                  {id}
-                </p>
+                <Icon className="h-fit w-3/5" />
               </div>
             ))}
           </div>
