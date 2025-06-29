@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 
 const Hero = () => {
   return (
-    <section className="p-hero h-[600px] sm:h-auto lg:h-screen">
+    <section className="p-container h-[600px] sm:h-auto lg:h-screen">
       {/* Wrapper with gradient bg */}
       <div className="gradient-bg h-full overflow-hidden rounded">
         {/* Container */}

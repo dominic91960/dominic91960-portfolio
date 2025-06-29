@@ -3,7 +3,7 @@
 :root {
   --foreground: #111418;
   --background: #f8f9fa;
-  --hero-padding: 20px;
+  --container-padding: 20px;
   --radius: 25px;
 }
 
@@ -21,7 +21,7 @@ When defining theme variables that reference other variables, use the inline opt
 
   --radius: var(--radius);
 
-  --spacing-hero: var(--hero-padding);
+  --spacing-container: var(--container-padding);
 }
 
 @layer base {
@@ -57,35 +57,35 @@ When defining theme variables that reference other variables, use the inline opt
 
 @media (width >= 640px) {
   :root {
-    --hero-padding: 27px;
+    --container-padding: 27px;
     --radius: 31px;
   }
 }
 
 @media (width >= 768px) {
   :root {
-    --hero-padding: 35px;
+    --container-padding: 35px;
     --radius: 37px;
   }
 }
 
 @media (width >= 1024px) {
   :root {
-    --hero-padding: 42px;
+    --container-padding: 42px;
     --radius: 44px;
   }
 }
 
 @media (width >= 1280px) {
   :root {
-    --hero-padding: 46px;
+    --container-padding: 46px;
     --radius: 47px;
   }
 }
 
 @media (width >= 1536px) {
   :root {
-    --hero-padding: 50px;
+    --container-padding: 50px;
     --radius: 50px;
   }
 }
