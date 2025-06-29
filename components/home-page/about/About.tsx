@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section>
       {/* Container grid */}
-      <div className="p-container container mx-auto grid grid-cols-1 gap-[1em] pt-0 lg:grid-cols-10">
+      <div className="p-container container mx-auto grid grid-cols-1 gap-[1em] lg:grid-cols-10">
         {/* Sub grid 1 */}
         <div className="flex flex-col gap-[1em] lg:col-span-4">
           {/* Title row */}
