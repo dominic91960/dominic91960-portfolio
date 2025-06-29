@@ -45,8 +45,8 @@ const Hero = () => {
               loop
               muted
               playsInline
-              src="home-page/hero/hero.webm"
-              poster="home-page/hero/hero-thumbnail.jpg"
+              src="images/home-page/hero/hero.webm"
+              poster="images/home-page/hero/hero-thumbnail.jpg"
             >
               <source src="images/home-page/hero/hero.mp4" type="video/mp4" />
               Your browser does not support videos
