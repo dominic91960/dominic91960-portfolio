@@ -1,13 +1,11 @@
 import React from "react";
-
 import { cn } from "@/lib/utils";
-import classes from "@/styles/home-page/hero.module.css";
 
 const Hero = () => {
   return (
     <section className="p-hero h-[600px] sm:h-auto lg:h-screen">
       {/* Wrapper with gradient bg */}
-      <div className={cn("h-full overflow-hidden rounded", classes["hero-bg"])}>
+      <div className="gradient-bg h-full overflow-hidden rounded">
         {/* Container */}
         <div
           className={cn(

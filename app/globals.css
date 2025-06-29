@@ -7,6 +7,10 @@
   --radius: 25px;
 }
 
+/* 
+(from https://tailwindcss.com/docs/theme#referencing-other-variables)
+When defining theme variables that reference other variables, use the inline option
+*/
 @theme inline {
   --color-foreground: var(--foreground);
   --color-background: var(--background);
@@ -32,6 +36,15 @@
 
   button {
     cursor: pointer;
+  }
+}
+
+@layer components {
+  .gradient-bg {
+    background-image:
+      radial-gradient(70.71% 99% at 100% 39.75%, #00875e 0%, #000000 100%),
+      radial-gradient(70.41% 100% at 50% 0%, #c7910c 0%, #c62a34 100%);
+    background-blend-mode: difference;
   }
 }
 
