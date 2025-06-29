@@ -21,7 +21,7 @@ const About = () => {
 
           {/* Text row */}
           <div className="gradient-bg grow rounded p-[2px]">
-            <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-3px)] p-[2em]">
+            <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-1px)] p-[2em]">
               <p>
                 I&apos;m an aspiring full-stack developer with a growing passion
                 for web technologies and user experience design. My journey into
@@ -54,7 +54,7 @@ const About = () => {
           <div className="grid grid-cols-1 grid-rows-12 gap-[1em] sm:col-span-6">
             {/* Text row */}
             <div className="gradient-bg row-span-8 rounded p-[2px]">
-              <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-3px)] p-[2em]">
+              <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-1px)] p-[2em]">
                 <h3 className="text-[22px] font-bold sm:text-[24px] md:text-[27px] lg:text-[29px] xl:text-[31px] 2xl:text-[32px]">
                   Work <br /> Experience
                 </h3>
@@ -128,7 +128,7 @@ const About = () => {
 
             {/* Text row */}
             <div className="gradient-bg relative row-span-8 row-start-1 rounded p-[2px] sm:row-start-auto">
-              <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-3px)] p-[2em]">
+              <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-1px)] p-[2em]">
                 <h3 className="text-[22px] font-bold sm:text-[24px] md:text-[27px] lg:text-[29px] xl:text-[31px] 2xl:text-[32px]">
                   Education
                 </h3>
