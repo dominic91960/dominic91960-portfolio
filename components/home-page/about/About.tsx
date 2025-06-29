@@ -51,9 +51,9 @@ const About = () => {
         {/* Sub grid 2 */}
         <div className="grid grid-cols-1 gap-[1em] sm:grid-cols-10 lg:col-span-6">
           {/* Column 1 */}
-          <div className="grid grid-cols-1 grid-rows-12 gap-[1em] sm:col-span-6">
+          <div className="grid grid-cols-1 gap-[1em] sm:col-span-6 sm:grid-rows-12">
             {/* Text row */}
-            <div className="gradient-bg row-span-8 rounded p-[2px]">
+            <div className="gradient-bg rounded p-[2px] sm:row-span-8">
               <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-1px)] p-[2em]">
                 <h3 className="text-[22px] font-bold sm:text-[24px] md:text-[27px] lg:text-[29px] xl:text-[31px] 2xl:text-[32px]">
                   Work <br /> Experience
@@ -100,7 +100,7 @@ const About = () => {
             </div>
 
             {/* Image row */}
-            <div className="gradient-bg row-span-4 rounded p-[2em]">
+            <div className="gradient-bg h-[130px] rounded p-[2em] sm:row-span-4 sm:h-auto">
               <div className="relative h-full">
                 <Image
                   alt="Logo of Sphiria Digital Studios"
@@ -113,9 +113,9 @@ const About = () => {
           </div>
 
           {/* Column 2 */}
-          <div className="grid grid-cols-1 grid-rows-12 gap-[1em] sm:col-span-4">
+          <div className="grid grid-cols-1 gap-[1em] sm:col-span-4 sm:grid-rows-12">
             {/* Image row */}
-            <div className="gradient-bg row-span-4 rounded p-[2em]">
+            <div className="gradient-bg h-[130px] rounded p-[2em] sm:row-span-4 sm:h-auto">
               <div className="relative mx-auto h-full w-4/5">
                 <Image
                   alt="Logo of National Institude of Business Management"
@@ -127,7 +127,7 @@ const About = () => {
             </div>
 
             {/* Text row */}
-            <div className="gradient-bg relative row-span-8 row-start-1 rounded p-[2px] sm:row-start-auto">
+            <div className="gradient-bg relative row-start-1 rounded p-[2px] sm:row-span-8 sm:row-start-auto">
               <div className="bg-background text-foreground h-full rounded-[calc(var(--radius)-1px)] p-[2em]">
                 <h3 className="text-[22px] font-bold sm:text-[24px] md:text-[27px] lg:text-[29px] xl:text-[31px] 2xl:text-[32px]">
                   Education
