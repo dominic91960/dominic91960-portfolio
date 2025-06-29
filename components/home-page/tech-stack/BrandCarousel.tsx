@@ -16,7 +16,7 @@ const BrandCarousel: React.FC<{ className?: string }> = ({
 
   useGSAP(
     () => {
-      gsap.from("#brand-carousel", {
+      gsap.to("#brand-carousel", {
         xPercent: -50,
         duration: 30,
         ease: "none",
@@ -38,17 +38,14 @@ const BrandCarousel: React.FC<{ className?: string }> = ({
       <div className="via-foreground/30 h-px bg-gradient-to-r from-transparent to-transparent"></div>
 
       {/* Carousel */}
-      <div
-        id="brand-carousel"
-        className="grid w-[800%] grid-cols-2 lg:w-[400%]"
-      >
+      <div id="brand-carousel" className="grid w-[400%] grid-cols-2">
         {Array.from({ length: 2 }).map((_, i) => (
           <div className="grid grid-cols-8" key={i}>
             {brandCarouselData.map(({ id, Icon }) => (
               <div
                 key={id}
                 tabIndex={-1}
-                className="relative flex items-center justify-center opacity-100 transition-opacity duration-300 hover:opacity-100 focus:opacity-100"
+                className="relative flex items-center justify-center opacity-30 transition-opacity duration-300 hover:opacity-60 focus:opacity-60"
               >
                 <Icon className="h-fit w-3/5" />
               </div>
