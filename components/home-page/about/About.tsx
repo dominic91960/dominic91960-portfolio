@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import nibmLogo from "@/public/home-page/about/nibm.svg";
-import sphiriaLogo from "@/public/home-page/about/sphiria.png";
+import nibmLogo from "@/public/images/home-page/about/nibm.svg";
+import sphiriaLogo from "@/public/images/home-page/about/sphiria.png";
 
 const About = () => {
   return (

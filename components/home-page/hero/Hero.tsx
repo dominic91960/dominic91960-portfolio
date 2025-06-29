@@ -48,7 +48,7 @@ const Hero = () => {
               src="home-page/hero/hero.webm"
               poster="home-page/hero/hero-thumbnail.jpg"
             >
-              <source src="home-page/hero/hero.mp4" type="video/mp4" />
+              <source src="images/home-page/hero/hero.mp4" type="video/mp4" />
               Your browser does not support videos
             </video>
           </div>
