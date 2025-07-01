@@ -28,9 +28,10 @@ export const mainProjectsData = [
     type: "ecommerce",
     info: "I'm an aspiring full-stack developer with a growing passion for web technologies and user experience design. My journey into web development began through online courses and personal projects, where I discovered my love for creating interactive applications.\n\nI'm currently focused on building a strong foundation in both frontend and backend technologies. Each project I work on teaches me something new, and I'm constantly challenging myself to learn and apply new concepts.\n\nI'm eager to join a development team where I can continue learning, contribute to meaningful projects, and grow into a skilled full-stack developer.",
     techStack: [
-      { id: "next", icon: NextIcon },
-      { id: "nest", icon: NestIcon },
-      { id: "mongo", icon: MongoIcon },
+      { id: "next", Icon: NextIcon },
+      { id: "tailwind", Icon: TailwindIcon },
+      { id: "nest", Icon: NestIcon },
+      { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://thecasadeimariamontessorischool.com",
     videoData: {
@@ -46,9 +47,10 @@ export const mainProjectsData = [
     type: "ecommerce",
     info: "I'm an aspiring full-stack developer with a growing passion for web technologies and user experience design. My journey into web development began through online courses and personal projects, where I discovered my love for creating interactive applications.\n\nI'm currently focused on building a strong foundation in both frontend and backend technologies. Each project I work on teaches me something new, and I'm constantly challenging myself to learn and apply new concepts.\n\nI'm eager to join a development team where I can continue learning, contribute to meaningful projects, and grow into a skilled full-stack developer.",
     techStack: [
-      { id: "next", icon: NextIcon },
-      { id: "nest", icon: NestIcon },
-      { id: "mongo", icon: MongoIcon },
+      { id: "next", Icon: NextIcon },
+      { id: "tailwind", Icon: TailwindIcon },
+      { id: "nest", Icon: NestIcon },
+      { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://westvalleymontessori.com",
     videoData: {

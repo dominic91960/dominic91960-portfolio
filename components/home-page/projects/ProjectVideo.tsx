@@ -1,6 +1,14 @@
 import React from "react";
 
-const ProjectVideo = () => {
+type ProjectVideoProps = {
+  data: {
+    thumbnail: string;
+    mp4Link: string;
+    webmLink: string;
+  };
+};
+
+const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
   return (
     <div className="col-span-2 row-span-2 h-[400px] overflow-hidden rounded border border-white/30">
       <video
@@ -10,10 +18,10 @@ const ProjectVideo = () => {
         loop
         muted
         playsInline
-        src="images/home-page/hero/hero.webm"
-        poster="images/home-page/hero/hero-thumbnail.jpg"
+        src={data.webmLink}
+        poster={data.thumbnail}
       >
-        <source src="images/home-page/hero/hero.mp4" type="video/mp4" />
+        <source src={data.mp4Link} type="video/mp4" />
         Your browser does not support videos
       </video>
     </div>
