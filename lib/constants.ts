@@ -25,8 +25,8 @@ export const mainProjectsData = [
     id: "001",
     name: "The Casa Dei Maria Montessori",
     displayName: "The Casa Dei Maria",
-    type: "ecommerce",
-    info: "I'm an aspiring full-stack developer with a growing passion for web technologies and user experience design. My journey into web development began through online courses and personal projects, where I discovered my love for creating interactive applications.\n\nI'm currently focused on building a strong foundation in both frontend and backend technologies. Each project I work on teaches me something new, and I'm constantly challenging myself to learn and apply new concepts.\n\nI'm eager to join a development team where I can continue learning, contribute to meaningful projects, and grow into a skilled full-stack developer.",
+    type: "Educational",
+    info: "A full-stack school website for The Casa Dei Maria Montessori, a school located in West Hills, CA, as part of a three-site Montessori network (alongside Westvalley and Maria's). It serves as both a marketing platform and enrollment management system. \n\nWorked on the non-admin frontend independently using Next.js with TypeScript, Tailwind CSS, and Motion for animations. Implemented interactive carousels with Swiper.js and form handling using React Hook Form with Zod validation schemas.\n\nContributed to backend development under senior guidance, working with Nest.js and MongoDB to handle form submissions for admission, tour requests, and contact forms. Integrated Resend with React-Email to automate email workflows, sending confirmations to users and notifications to administrators.",
     techStack: [
       { id: "next", Icon: NextIcon },
       { id: "tailwind", Icon: TailwindIcon },
@@ -44,8 +44,8 @@ export const mainProjectsData = [
     id: "002",
     name: "Westvalley Montessori",
     displayName: "Westvalley",
-    type: "ecommerce",
-    info: "I'm an aspiring full-stack developer with a growing passion for web technologies and user experience design. My journey into web development began through online courses and personal projects, where I discovered my love for creating interactive applications.\n\nI'm currently focused on building a strong foundation in both frontend and backend technologies. Each project I work on teaches me something new, and I'm constantly challenging myself to learn and apply new concepts.\n\nI'm eager to join a development team where I can continue learning, contribute to meaningful projects, and grow into a skilled full-stack developer.",
+    type: "Educational",
+    info: "A full-stack school website for The Casa Dei Maria Montessori, a school located in West Hills, CA, as part of a three-site Montessori network (alongside Westvalley and Maria's). It serves as both a marketing platform and enrollment management system. \n\nWorked on the non-admin frontend independently using Next.js with TypeScript, Tailwind CSS, and Motion for animations. Implemented interactive carousels with Swiper.js and form handling using React Hook Form with Zod validation schemas.\n\nContributed to backend development under senior guidance, working with Nest.js and MongoDB to handle form submissions for admission, tour requests, and contact forms. Integrated Resend with React-Email to automate email workflows, sending confirmations to users and notifications to administrators.",
     techStack: [
       { id: "next", Icon: NextIcon },
       { id: "tailwind", Icon: TailwindIcon },

@@ -1,3 +1,4 @@
+import { cn } from "@/lib/utils";
 import React from "react";
 
 type ProjectListProps = {
@@ -23,21 +24,29 @@ const ProjectList: React.FC<ProjectListProps> = ({
           const isSelected = id === selectedProject;
 
           return (
-            <li key={id}>
-              <div className="flex items-end border-b border-b-white/30 px-[0.2em] pb-[0.4em]">
-                {isSelected && (
-                  <div className="gradient-bg mr-[0.4em] size-[0.6em] self-center rounded-full blur-[2px]"></div>
+            <li
+              key={id}
+              className="flex items-end justify-end gap-[1em] border-b border-b-white/30 px-[0.2em] pb-[0.4em]"
+            >
+              <button
+                className={cn(
+                  "relative grow ps-0 text-left font-medium transition-all duration-500",
+                  isSelected && "ps-[1.3em]",
                 )}
-                <button
-                  className="max-w-3/5 text-left font-medium"
-                  onClick={() => handleProjectSelect(id)}
-                >
-                  {name}
-                </button>
-                <p className="ms-auto text-[0.8em] font-light uppercase">
-                  {type}
-                </p>
-              </div>
+                onClick={() => handleProjectSelect(id)}
+              >
+                <div
+                  className={cn(
+                    "gradient-bg absolute top-0 bottom-0 left-[0.2em] my-auto mr-[0.4em] size-[0.6em] rounded-full opacity-0 blur-[2px] transition-opacity duration-300",
+                    isSelected && "opacity-100",
+                  )}
+                ></div>
+
+                <span className="relative">{name}</span>
+              </button>
+              <p className="max-w-[12ch] shrink-0 text-[0.8em] font-light uppercase">
+                {type}
+              </p>
             </li>
           );
         })}
