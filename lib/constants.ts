@@ -34,11 +34,7 @@ export const mainProjectsData = [
       { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://thecasadeimariamontessorischool.com",
-    videoData: {
-      thumbnail: "images/home-page/hero/hero-thumbnail.jpg",
-      mp4Link: "images/home-page/hero/hero.mp4",
-      webmLink: "images/home-page/hero/hero.webm",
-    },
+    videoLink: "westvalley-demo_bwaf14",
   },
   {
     id: "002",
@@ -53,10 +49,6 @@ export const mainProjectsData = [
       { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://westvalleymontessori.com",
-    videoData: {
-      thumbnail: "images/home-page/hero/hero-thumbnail.jpg",
-      mp4Link: "images/home-page/hero/hero.mp4",
-      webmLink: "images/home-page/hero/hero.webm",
-    },
+    videoLink: "westvalley-demo_bwaf14",
   },
 ];

@@ -54,7 +54,7 @@ const Projects = () => {
           />
 
           {/* Row 4 */}
-          <ProjectVideo data={selectedProjectData.videoData} />
+          <ProjectVideo data={selectedProjectData.videoLink} />
         </div>
       </div>
     </section>
