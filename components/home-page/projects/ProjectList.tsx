@@ -44,7 +44,7 @@ const ProjectList: React.FC<ProjectListProps> = ({
 
                 <span className="relative">{name}</span>
               </button>
-              <p className="max-w-[12ch] shrink-0 text-[0.8em] font-light uppercase">
+              <p className="max-w-[12ch] shrink-0 text-right text-[0.8em] font-light uppercase">
                 {type}
               </p>
             </li>

@@ -9,7 +9,7 @@ type ProjectVideoProps = {
 
 const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
   return (
-    <div className="col-span-2 row-span-2 h-[400px] overflow-hidden rounded border border-white/30">
+    <div className="col-span-2 row-span-2 aspect-video overflow-hidden rounded border border-white/30">
       <CldVideoPlayer
         key={data}
         src={data}
@@ -19,6 +19,11 @@ const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
         controls={false}
         loop
         muted
+        transformation={{
+          quality: "auto",
+          format: "auto",
+          videoCodec: "auto",
+        }}
       />
     </div>
   );
