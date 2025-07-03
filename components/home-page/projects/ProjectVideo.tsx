@@ -9,10 +9,10 @@ type ProjectVideoProps = {
 
 const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
   return (
-    <div className="col-span-2 row-span-2 aspect-video overflow-hidden rounded border border-white/30">
+    <div className="text-foreground row-span-2 flex items-center overflow-hidden rounded border border-white/30">
       <CldVideoPlayer
         key={data}
-        src={data}
+        src="gsap-demo_wk2kyu"
         width="16"
         height="9"
         autoplay="on-scroll"

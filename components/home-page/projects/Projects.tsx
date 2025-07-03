@@ -37,7 +37,8 @@ const Projects = () => {
           <ProjectLink data={selectedProjectData.siteLink} />
 
           {/* Row 2 */}
-          <ProjectInfo data={selectedProjectData.info} />
+
+          <ProjectVideo data={selectedProjectData.videoLink} />
           <div className="gradient-bg col-span-2 rounded py-[0.7em] text-[40px] sm:text-[47px] md:text-[54px] lg:text-[61px] xl:text-[68px] 2xl:text-[75px]">
             {/* Section title */}
             <h2 className="text-background text-center font-bold tracking-tighter">
@@ -54,7 +55,7 @@ const Projects = () => {
           />
 
           {/* Row 4 */}
-          <ProjectVideo data={selectedProjectData.videoLink} />
+          <ProjectInfo data={selectedProjectData.info} />
         </div>
       </div>
     </section>
