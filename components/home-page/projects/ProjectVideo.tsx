@@ -12,7 +12,7 @@ const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
     <div className="text-foreground row-span-2 flex items-center overflow-hidden rounded border border-white/30">
       <CldVideoPlayer
         key={data}
-        src="gsap-demo_wk2kyu"
+        src="westvalley-demo_wmikcu"
         width="16"
         height="9"
         autoplay="on-scroll"
