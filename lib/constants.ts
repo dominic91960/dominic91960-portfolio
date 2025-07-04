@@ -34,7 +34,7 @@ export const mainProjectsData = [
       { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://westvalleymontessori.com",
-    videoLink: "westvalley-demo_bwaf14",
+    videoLink: "westvalley-demo_wmikcu",
   },
   {
     id: "TG",
@@ -47,7 +47,7 @@ export const mainProjectsData = [
       { id: "tailwind", Icon: TailwindIcon },
     ],
     siteLink: "https://thevingame.com",
-    videoLink: "thevingame-demo_e6ev7b",
+    videoLink: "thevingame-demo_bmimqx",
   },
   {
     id: "WV",
@@ -60,7 +60,7 @@ export const mainProjectsData = [
       { id: "tailwind", Icon: TailwindIcon },
     ],
     siteLink: "https://wolvista.com",
-    videoLink: "wolvista-demo_kuu7cj",
+    videoLink: "wolvista-demo_zbjxft",
   },
   {
     id: "MM",
@@ -75,7 +75,7 @@ export const mainProjectsData = [
       { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://mariasmontessorischool.com",
-    videoLink: "marias-demo_g4s15d",
+    videoLink: "marias-demo_grzcqq",
   },
   {
     id: "CDMM",
@@ -90,6 +90,6 @@ export const mainProjectsData = [
       { id: "mongo", Icon: MongoIcon },
     ],
     siteLink: "https://thecasadeimariamontessorischool.com",
-    videoLink: "casa-demo_c86ilz",
+    videoLink: "the-casa-dei-maria-demo_viw1uo",
   },
 ];

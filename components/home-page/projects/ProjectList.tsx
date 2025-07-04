@@ -13,7 +13,7 @@ const ProjectList: React.FC<ProjectListProps> = ({
   handleProjectSelect,
 }) => {
   return (
-    <div className="text-foreground row-span-3 rounded border border-white/30 p-[2em]">
+    <div className="text-foreground border-foreground/30 row-span-3 rounded border p-[2em]">
       <h3 className="text-[22px] font-bold sm:text-[24px] md:text-[27px] lg:text-[29px] xl:text-[31px] 2xl:text-[32px]">
         List Of Projects
       </h3>
@@ -26,7 +26,7 @@ const ProjectList: React.FC<ProjectListProps> = ({
           return (
             <li
               key={id}
-              className="flex items-end justify-end gap-[1em] border-b border-b-white/30 px-[0.2em] pb-[0.4em]"
+              className="border-b-foreground/30 flex items-end justify-end gap-[1em] border-b px-[0.2em] pb-[0.4em]"
             >
               <button
                 className={cn(

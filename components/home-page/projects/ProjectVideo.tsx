@@ -9,10 +9,10 @@ type ProjectVideoProps = {
 
 const ProjectVideo: React.FC<ProjectVideoProps> = ({ data }) => {
   return (
-    <div className="text-foreground row-span-2 flex items-center overflow-hidden rounded border border-white/30">
+    <div className="text-foreground border-foreground/30 row-span-2 flex items-center overflow-hidden rounded border">
       <CldVideoPlayer
         key={data}
-        src="westvalley-demo_wmikcu"
+        src={data}
         width="16"
         height="9"
         autoplay="on-scroll"
