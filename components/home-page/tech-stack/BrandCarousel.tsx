@@ -38,7 +38,10 @@ const BrandCarousel: React.FC<{ className?: string }> = ({
       <div className="via-foreground/30 h-px bg-gradient-to-r from-transparent to-transparent"></div>
 
       {/* Carousel */}
-      <div id="brand-carousel" className="grid w-[400%] grid-cols-2">
+      <div
+        id="brand-carousel"
+        className="grid w-[400%] grid-cols-2 sm:w-[200%]"
+      >
         {Array.from({ length: 2 }).map((_, i) => (
           <div className="grid grid-cols-8" key={i}>
             {brandCarouselData.map(({ id, Icon }) => (
