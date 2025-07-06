@@ -30,7 +30,7 @@ const Projects = () => {
     mainProjectsData[0];
 
   return (
-    <section>
+    <section id="projects-section">
       <div className="p-container container mx-auto">
         {/* Mobile accordion */}
         <ProjectAccordion />

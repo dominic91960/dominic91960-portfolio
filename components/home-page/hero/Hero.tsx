@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -27,13 +28,21 @@ const Hero = () => {
 
           {/* CTA */}
           <div className="flex gap-[1em]">
-            <button className="bg-background/40 hover:bg-background/60 focus:bg-background/60 text-foreground w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
-              My Projects
-            </button>
+            <Link href="#projects-section">
+              <button className="bg-background/40 hover:bg-background/60 focus:bg-background/60 text-foreground w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
+                My Projects
+              </button>
+            </Link>
 
-            <button className="bg-foreground/40 hover:bg-foreground/60 focus:bg-foreground/60 text-background w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
-              Get In Touch
-            </button>
+            <Link
+              href="mailto:dominic91960@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <button className="bg-foreground/40 hover:bg-foreground/60 focus:bg-foreground/60 text-background w-[15ch] rounded-[0.5em] py-[1em] font-medium backdrop-blur-sm transition-colors duration-300">
+                Get In Touch
+              </button>
+            </Link>
           </div>
 
           {/* Video area */}

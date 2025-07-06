@@ -48,6 +48,7 @@ When defining theme variables that reference other variables, use the inline opt
 @layer base {
   * {
     scrollbar-width: thin;
+    scroll-behavior: smooth;
   }
 
   ::selection {
