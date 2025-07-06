@@ -33,21 +33,20 @@ const Projects = () => {
       <div className="p-container container mx-auto">
         <div className="grid grid-cols-3 gap-[1em]">
           {/* Row 1 */}
-          <ProjectTechStack data={selectedProjectData.techStack} />
-          <ProjectLink data={selectedProjectData.siteLink} />
-
-          {/* Row 2 */}
-
-          <ProjectVideo data={selectedProjectData.videoLink} />
           <div className="gradient-bg col-span-2 rounded py-[0.7em] text-[40px] sm:text-[47px] md:text-[54px] lg:text-[61px] xl:text-[68px] 2xl:text-[75px]">
             {/* Section title */}
             <h2 className="text-background text-center font-bold tracking-tighter">
               My Projects
             </h2>
           </div>
+          <ProjectName data={selectedProjectData.displayName} />
+
+          {/* Row 2 */}
+          <ProjectVideo data={selectedProjectData.videoLink} />
+          <ProjectTechStack data={selectedProjectData.techStack} />
 
           {/* Row 3 */}
-          <ProjectName data={selectedProjectData.displayName} />
+          <ProjectLink data={selectedProjectData.siteLink} />
           <ProjectList
             data={projectListData}
             selectedProject={selectedProjectID}

@@ -26,7 +26,7 @@ const ProjectList: React.FC<ProjectListProps> = ({
           return (
             <li
               key={id}
-              className="border-b-foreground/30 flex items-end justify-end gap-[1em] border-b px-[0.2em] pb-[0.4em]"
+              className="border-b-foreground/30 flex flex-col gap-[1em] border-b px-[0.2em] pb-[0.4em] 2xl:flex-row 2xl:items-end 2xl:justify-end"
             >
               <button
                 className={cn(
@@ -44,7 +44,7 @@ const ProjectList: React.FC<ProjectListProps> = ({
 
                 <span className="relative">{name}</span>
               </button>
-              <p className="max-w-[12ch] shrink-0 text-right text-[0.8em] font-light uppercase">
+              <p className="shrink-0 text-[0.8em] font-light uppercase 2xl:max-w-[12ch] 2xl:text-right">
                 {type}
               </p>
             </li>

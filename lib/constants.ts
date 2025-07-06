@@ -5,6 +5,7 @@ import NestIcon from "@/components/icons/NestIcon";
 import NextIcon from "@/components/icons/NextIcon";
 import NodeIcon from "@/components/icons/NodeIcon";
 import ReactIcon from "@/components/icons/ReactIcon";
+import ShadcnIcon from "@/components/icons/ShadcnIcon";
 import TailwindIcon from "@/components/icons/TailwindIcon";
 
 // ----- ----- ----- TECH STACK DATA ----- ----- -----
@@ -45,6 +46,7 @@ export const mainProjectsData = [
     techStack: [
       { id: "next", Icon: NextIcon },
       { id: "tailwind", Icon: TailwindIcon },
+      { id: "shadcn", Icon: ShadcnIcon },
     ],
     siteLink: "https://thevingame.com",
     videoLink: "thevingame-demo_bmimqx",
@@ -58,6 +60,7 @@ export const mainProjectsData = [
     techStack: [
       { id: "react", Icon: ReactIcon },
       { id: "tailwind", Icon: TailwindIcon },
+      { id: "shadcn", Icon: ShadcnIcon },
     ],
     siteLink: "https://wolvista.com",
     videoLink: "wolvista-demo_zbjxft",
