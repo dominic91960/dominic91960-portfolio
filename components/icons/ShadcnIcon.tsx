@@ -8,7 +8,7 @@ const ShadcnIcon: React.FC<React.SVGProps<SVGSVGElement>> = ({ ...props }) => {
       xmlns="http://www.w3.org/2000/svg"
       {...props}
     >
-      <g clip-path="url(#clip0_83_6)">
+      <g clipPath="url(#clip0_83_6)">
         <path
           d="M208 128L128 208"
           stroke="var(--color-foreground)"
