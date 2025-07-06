@@ -10,6 +10,7 @@ import ProjectInfo from "./ProjectInfo";
 import ProjectList from "./ProjectList";
 import ProjectVideo from "./ProjectVideo";
 import ProjectName from "./ProjectName";
+import ProjectAccordion from "./ProjectAccordion";
 
 const Projects = () => {
   const [selectedProjectID, setSelectedProjectID] = useState(
@@ -31,7 +32,11 @@ const Projects = () => {
   return (
     <section>
       <div className="p-container container mx-auto">
-        <div className="grid grid-cols-3 gap-[1em]">
+        {/* Mobile accordion */}
+        <ProjectAccordion />
+
+        {/* Desktop grid */}
+        <div className="hidden lg:grid lg:grid-cols-3 lg:gap-[1em]">
           {/* Row 1 */}
           <div className="gradient-bg col-span-2 rounded py-[0.7em] text-[40px] sm:text-[47px] md:text-[54px] lg:text-[61px] xl:text-[68px] 2xl:text-[75px]">
             {/* Section title */}
